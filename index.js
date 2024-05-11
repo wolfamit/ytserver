@@ -4,8 +4,8 @@ import connectionToDatabase from "./db/connectionToDatabase.js"
 import userRoutes from './Routes/user.js'
 import cors from 'cors'
 import bodyParser from "body-parser"
-import videoRoutes from './routes/video.js'
-import commentsRoutes from './routes/comments.js'
+import videoRoutes from './Routes/video.js'
+import commentsRoutes from './Routes/comments.js'
 import stripePackage from  'stripe'
 import paymentRoutes from './Routes/payment.js'
 import path from 'path'
