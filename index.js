@@ -26,10 +26,6 @@ app.use(express.urlencoded({limit:"30mb", extended:true}));
 // app.use('/uploads',express.static(path.join('uploads')))
 
 
-app.get('/',(req,res) => {
-    res.send("hello world");
-})
-
 app.use(bodyParser.json());
 app.set('trust proxy', true);
 app.use(requestIp.mw());
